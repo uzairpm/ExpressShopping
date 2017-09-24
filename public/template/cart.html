@@ -1,0 +1,38 @@
+<h2>Your shopping cart</h2>
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="product in selectedProducts">
+                <td><h3>{{product.name}}</h3> - <span class="text-warning">{{product.description}}</span></td>
+                <td>{{product.price | currency: "Rs."}}</td>
+                <td>
+                    <button class="btn btn-primary btn-xs" ng-click="decrementCount(product)">-</button>
+                    {{ product.quantity }}
+                    <button class="btn btn-primary btn-xs" ng-click="incrementCount(product)">+</button>
+                </td>
+                <td>{{product.price * product.quantity | currency: "Rs."}}</td>
+            </tr>
+            <tr class="info">
+                <td colspan="3">Shipping & Handling charges</td>
+                <td>{{shippingCharges | currency: "Rs."}}</td>
+            </tr>
+            <tr class="info">
+                <td colspan="3">Total</td>
+                <td>{{total | currency: "Rs."}}</td>
+            </tr>
+        </tbody>   
+    </table>
+    <div class="pull-right">
+        <button class="btn btn-success" ng-click="placeOrder()">
+            <i class="glyphicon glyphicon-credit-card"></i> Secure Pay {{total | currency: "Rs."}}
+        </button>
+    </div>
+</div>

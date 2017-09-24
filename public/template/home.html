@@ -1,0 +1,21 @@
+<div class="well" ng-show="message.length > 0">
+    {{ message }}
+    <p class="pull-right">
+        <button class="btn btn-success" ng-click="checkout()" ng-show="this.cartProducts.length > 0">
+            Checkout {{ this.cartProducts.length }} item(s)<span class="glyphicon glyphicon-shopping-cart"></span>
+        </button>
+    </p>
+</div>
+<div class="col-md-4" ng-repeat="product in products">
+    <div class="panel panel-default panel-info">
+        <div class="panel-heading">{{product.name}}</div>
+        <div class="panel-body">
+            <p>{{product.description}}</p>
+            <p>Price: {{product.price | currency: "Rs."}}</p>
+            <img ng-src="{{product.imageUrl}}" class="imageCls"/>
+        </div>
+        <div class="addToCart">
+            <button class="btn btn-info" ng-click="addToCart(product)">Add to cart</button>
+        </div>
+    </div>
+</div>

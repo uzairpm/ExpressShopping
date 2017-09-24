@@ -1,0 +1,47 @@
+[
+    {
+        "id": "59c644c76b7767128c5cf5cd",
+        "name": "iPad",
+        "description": "Apple tablet",
+        "category": "Tab",
+        "price": 22000,
+        "discount": 0,
+        "imageUrl": "http://cdn2.gsmarena.com/vv/pics/apple/apple-ipad-mini-black.jpg"
+    },
+    {
+        "id": "59c645586b7767128c5cf5ce",
+        "name": "iPad2",
+        "description": "Apple tablet version 2",
+        "category": "Tab",
+        "price": 26000,
+        "discount": 0,
+        "imageUrl": "http://www.img.lirent.net/2012/10/ipad2-mini-apple-new-imac-software-computer-design-ipad-iphone-free-ios07.jpg"
+    },
+    {
+        "id": "59c645eb6b7767128c5cf5cf",
+        "name": "Apple Airpods",
+        "description": "Apple product",
+        "category": "Head phones",
+        "price": 15000,
+        "discount": 100,
+        "imageUrl": "http://cdn.redmondpie.com/wp-content/uploads/2016/09/airpods-main.jpg"
+    },
+    {
+        "id": "59c646496b7767128c5cf5d0",
+        "name": "Redmi Note 3",
+        "description": "Latest gadget by Xiaomi 1 year back",
+        "category": "Mobile Phone",
+        "price": 9999,
+        "discount": 100,
+        "imageUrl": "http://drop.ndtv.com/TECH/product_database/images/1124201530015PM_635_xiaomi_redmi_note_3.jpeg"
+    },
+    {
+        "id": "59c646746b7767128c5cf5d1",
+        "name": "Redmi Note 4",
+        "description": "Latest gadget by Xiaomi",
+        "category": "Mobile Phone",
+        "price": 11000,
+        "discount": 500,
+        "imageUrl": "http://cdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note4-sn-1.jpg"
+    }
+]

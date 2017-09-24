@@ -1,0 +1,20 @@
+[
+    {
+        "id": "59c644c76b7767128c5cf5cd",
+        "name": "iPad",
+        "description": "Apple tablet",
+        "category": "Tab",
+        "price": 22000,
+        "discount": 0,
+        "imageUrl": "http://cdn2.gsmarena.com/vv/pics/apple/apple-ipad-mini-black.jpg"
+    },
+    {
+        "id": "59c645586b7767128c5cf5ce",
+        "name": "iPad2",
+        "description": "Apple tablet version 2",
+        "category": "Tab",
+        "price": 26000,
+        "discount": 0,
+        "imageUrl": "http://www.img.lirent.net/2012/10/ipad2-mini-apple-new-imac-software-computer-design-ipad-iphone-free-ios07.jpg"
+    }
+]
